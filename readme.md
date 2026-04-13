@@ -58,7 +58,7 @@ thrashing of elements that then create the circumstances for new stars to form. 
 for organic life to form long after the star has disappeared from existence. 
 
 Human life in a sense mimics this process, we live until our bodies can no longer function and then when we go, 
-our bodies are then used by the Earth and other organisms to survive, and sustain the life. It's this never ending
+our bodies are then used by the Earth and other organisms to survive, and sustain other life. It's this never ending
 cycle that will never end until the heat death of the universe. Biology and physics are not that far apart when you
 think of in that manner; the universe always tries to achieve this balance in some way. This insanely complex, but simple
 balancing act of matter and energy.
