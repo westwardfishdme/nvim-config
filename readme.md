@@ -69,3 +69,5 @@ it is but the first law of thermodynamics-- the conservation of energy.
 I have it as the title for vim because it's a reminder of my own existence. I won't be around forever; so when I go when the time comes, 
 these projects will be around for someone to pick up; Like the star that gave life to other planets; I'll no longer be around, but there
 are possibilities that what I've worked on will give others inspiration. 
+
+So yeah, like the quote no one knows where it came from, but it has stayed around this long.
