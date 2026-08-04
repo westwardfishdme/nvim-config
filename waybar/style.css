@@ -1,0 +1,95 @@
+* {
+	font-family: "Fira Code Nerd Font Propo";
+	border: none;
+	font-size: 12px;
+	margin-bottom: 0px;
+}
+window#waybar {
+	background: rgba(0, 0, 0, 0);
+}
+tooltip {
+	background: rgba(43, 48, 59, 0.5);
+	border: 1px solid rgba(100, 114, 125, 0.5);
+}
+tooltip label {
+	color: white;
+}
+
+#workspaces button {
+	background: #2f2f2f;
+	color: #fffdff;
+	margin-left: 2px;
+	margin-right: 2px;
+	border-radius: 0px;
+
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-bottom: 2px;
+	border-radius: 10px;
+}
+
+/*
+* colors i liked: 
+*
+	background: #1f4f88;
+	background: #1f4f88;
+*
+* */
+#workspaces button.active {
+	background: #cf8f00;
+	color: #ffffff;
+	padding-bottom: 2px;
+	border-radius: 10px;
+}
+
+#mode {
+	background: #ffffff;
+	border-bottom: 3px solid white;
+}
+
+#clock {
+	padding-top: 4px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 16px;
+	background: rgba(10, 20, 20, 0.65);
+	border-radius: 10px;
+}
+
+/*right side modules*/
+#cpu {
+	background-color: #209535;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+#memory {
+	background-color: #2a2a2a;
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #ffffff;
+}
+
+#pulseaudio {
+	background-color: #2a2a2a;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+#network {
+	background-color: #ee9f00;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+#tray {
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+@keyframes blink {
+	to {
+		background-color: #ffffff;
+		color: black;
+	}
+}

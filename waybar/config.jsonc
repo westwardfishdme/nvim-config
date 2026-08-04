@@ -1,0 +1,76 @@
+{
+	"modules-left": ["hyprland/workspaces", "gamemode"],
+
+
+
+
+	"modules-center": ["clock"],
+	"modules-right": [
+		"tray",
+		"cpu",
+		"memory",
+		"pulseaudio",
+		"network",
+	],
+/* workspaces + left-hand side*/
+	"hyprland/workspaces":{
+		"format": "[{name}]: {icon}",
+		"format-icons":{
+			"1":"",
+			"2":"",
+			"3":"",
+			"4":"",
+			"5":"",
+			"6":"",
+			"7":"",
+			"8":":3",
+			"9":"owo",
+			"0":"",
+			"u":"",
+			"o":"",
+		},
+	},
+	
+	"network":{
+	"format": "/dev/{ifname} {ipaddr}"
+	},
+	"cpu":{
+		"format": "cpu: {usage}%",
+	},
+
+	"memory":{
+		"format": "mem: {avail} GiB/{total} GiB ({percentage}% used)",
+		"interval": 1
+	},
+
+	"clock":{
+		"interval":1,
+		"format": "({:%A) %b %d, %Y %I:%M %p [%S}/60]",
+		"tooltip-format": "<tt>{calendar}</tt>",
+    "calendar":{
+      "mode"          : "year",
+      "mode-mon-col"  : 4,
+      "on-scroll"     : 1,
+      "format": {
+        "months":     "<span color='#ffead3'><b>{}</b></span>",
+        "days":       "<span color='#ffead3'><b>{}</b></span>",
+        "weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
+        "weekdays":   "<span color='#ffcc66'><b>{}</b></span>",
+        "today":      "<span color='#2afe00'><b><u>{}</u></b></span>"
+      }
+		},
+	},
+
+	// pulseaudio
+	"pulseaudio":{
+		"format": "vol: {volume}% {format_source}",
+  	"format-source":"mic: {volume}%",
+    "format-icons": {
+        "default": ""
+    },
+  	"format-muted": "vol: (mute)",
+  	"on-click":"pavucontrol"
+
+  	// source
+	},
+},
