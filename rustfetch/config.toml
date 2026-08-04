@@ -1,0 +1,52 @@
+# -- intro settings --  
+[intro]
+custom_welcome = "Welcome"
+
+# coloring
+username_color="#9acc5a"
+at_sign_color="#ffffff"
+hostname_color="#9acc5a"
+
+# -- section title (intro) --
+[intro.section_title]
+left_border = "="
+right_border = "="
+
+# coloring values here:
+border_color = "#b01231"
+background_color="#2a2a2a"
+text_color="#9acc5a"
+
+#-- prompt settings -- 
+
+[prompt]
+prompts_directory = "prompts"
+
+#-- sys_info settings -- 
+[system_information]
+custom_title = "System Information"
+show_date = true
+show_time = true
+clock_format = "both"
+show_kernel = true
+show_cpu = true
+show_cores = true
+show_memory = true
+memory_info_format = "all"
+show_uptime = true
+# coloring values here:
+sub_clock_color = "#2f6f90"
+info_text_color = "#af6f90"
+
+
+[system_information.section_title]
+left_border = "="
+right_border = "="
+text_color = "#9acc5a"
+border_color = "#b01231"
+background_color="#2a2a2a"
+
+[show]
+show_welcome = true
+show_message = true
+show_system_information = true
