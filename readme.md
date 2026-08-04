@@ -7,3 +7,6 @@ Configuration files for the following programs:
 - waybar
 
 You can find readmes inside some of the directories.
+
+### warning
+i can be quite profane in my configuration comments. can safely ignore.
